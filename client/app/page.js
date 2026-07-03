@@ -34,7 +34,7 @@ export default function LobbyPage() {
           <label className="block text-xs text-slate-400 mb-1">Your name</label>
           <input
             className="w-full bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm outline-none focus:border-blue-500"
-            placeholder="e.g. Pasindu"
+            placeholder="e.g. Hasini"
             value={name}
             onChange={(e) => setName(e.target.value)}
             maxLength={24}
